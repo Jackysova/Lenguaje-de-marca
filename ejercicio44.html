@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantilla</title>
+    <meta name="description" content="Esto es ">
+    <meta name="keywords" content="html, ejercicio, ejercicio1, ejemplo">
+    <meta name="author" content="Juan Manuel Narbona Rodriguez">
+    <meta name="application-name" content="Plantilla.html">
+    <link rel="Icon" sizes="64x64" href="C:\Users\jnarbonarodriguez\Lenguaje-de-marca-2\assets\icons\Kid-gohan.ico">
+    <meta name="generator" content="VSCode">
+</head>
+<body>
+  <h2>Únete a Tuenti</h2>
+  <p><em>Todos los campos son obligatorios</em></p>
+
+  <form>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <label for="apellidos">Apellidos:</label>
+    <input type="text" id="apellidos" name="apellidos" required>
+    <br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <br><br>
+
+    <label>Sexo:</label>
+    <input type="radio" id="hombre" name="sexo" value="hombre" required>
+    <label for="hombre">Hombre</label>
+    <input type="radio" id="mujer" name="sexo" value="mujer">
+    <label for="mujer">Mujer</label>
+    <br><br>
+
+    <label>Fecha de nacimiento:</label>
+    <input type="text" name="dia" size="2" maxlength="2" placeholder="Día" required>
+    <select name="mes" required>
+      <option value="">Mes</option>
+      <option value="enero">Enero</option>
+      <option value="febrero">Febrero</option>
+      <option value="marzo">Marzo</option>
+      <option value="abril">Abril</option>
+      <option value="mayo">Mayo</option>
+      <option value="junio">Junio</option>
+      <option value="julio">Julio</option>
+      <option value="agosto">Agosto</option>
+      <option value="septiembre">Septiembre</option>
+      <option value="octubre">Octubre</option>
+      <option value="noviembre">Noviembre</option>
+      <option value="diciembre">Diciembre</option>
+    </select>
+    <input type="text" name="anio" size="4" maxlength="4" placeholder="Año" required>
+    <p><small>La edad mínima permitida es 14.</small></p>
+    <br>
+
+    <label for="contrasena">Contraseña:</label>
+    <input type="password" id="contrasena" name="contrasena" required>
+    <p><small>Consejos para elegir una contraseña</small></p>
+    <br>
+
+    <label for="movil">Número de móvil:</label>
+    <span>+34</span>
+    <input type="text" id="movil" name="movil" required>
+    <br><br>
+
+    <input type="checkbox" id="condiciones" name="condiciones" required>
+    <label for="condiciones">
+      Aceptas las Condiciones de uso y la Política de privacidad de Tuenti y que Tuenti te envíe comunicaciones, incluso por vía electrónica. Lee un resumen en el Decálogo de las Condiciones de uso
+    </label>
+    <br><br>
+
+    <button type="submit">¡Disfruta de Tuenti!</button>
+  
+</body>
+</html>
